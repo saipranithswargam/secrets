@@ -1,2 +1,2 @@
 # Secrets-Page
-Official Secrets Page of IIITS
+Personal copy of the main secrets project
