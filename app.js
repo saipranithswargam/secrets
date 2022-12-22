@@ -66,7 +66,7 @@ passport.serializeUser(function(user, done) {
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "https://iiits-secrets-anonymous.herokuapp.com/auth/google/secrets",
+    callbackURL: "https://secrets-6co7.onrender.com/auth/google/secrets",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
 
   },
